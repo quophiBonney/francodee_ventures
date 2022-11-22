@@ -22,7 +22,6 @@ h4 {
     color:rgba(10, 4, 4, 0.788);
     font-size: 1.3em;
     font-weight: 800;
-    padding: 5px 5px;
 }
 .popup-screen {
     width: 100%;
@@ -52,7 +51,7 @@ h4 {
 .navbar-collapse .navbar-nav li.nav-item a.nav-link {
     margin-left: 15px;
     color: rgba(22, 16, 11, 0.699);
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: 600;
 }
 .nav-link:hover {
@@ -72,7 +71,7 @@ h4 {
 .main-banner {
     margin-top: 70px;
     height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/banner1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/banner1.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -105,7 +104,7 @@ h4 {
     background-attachment: fixed;
     backdrop-filter: blur(5px);
 }
-.stage-light-banner {
+.microphones-banner {
     margin-top: 70px;
     height: 250px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/stage_light1.jpg');
@@ -167,9 +166,13 @@ h4 {
     margin-top: 100px;
 }
 #each-service {
-    transform: scale(0.95);
+    transform: scale(0.9);
     border-radius: 5px;
     align-items: center;
+}
+#each-service img {
+    height: 200px;
+    width: 200px;
 }
 .btn-discover {
     font-weight: 600;
