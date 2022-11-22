@@ -1,0 +1,305 @@
+:root {
+    --red: rgb(241, 54, 54);
+    --blue: rgb(16, 16, 107);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+h3 {
+    color: var(--red);
+    font-size: 2em;
+    font-weight: 800;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h4 {
+    color:rgba(10, 4, 4, 0.788);
+    font-size: 1.3em;
+    font-weight: 800;
+    padding: 5px 5px;
+}
+.popup-screen {
+    width: 100%;
+    background-color: rgba(10, 4, 4, 0.788);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+    transition-property: transform;
+    visibility: hidden;
+}
+.popup-screen.active {
+    visibility: visible;
+}
+.popup-box {
+    text-align: center;
+    transform: scale(0);
+    transition: 0.9s ease-in-out;
+}
+.popup-screen.active .popup-box {
+    transform: scale(1)
+}
+#navbar-design {
+    background: rgb(232, 232, 245);
+    backdrop-filter: blur(5px);
+}
+.navbar-collapse .navbar-nav li.nav-item a.nav-link {
+    margin-left: 15px;
+    color: rgba(22, 16, 11, 0.699);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.nav-link:hover {
+    border-bottom: 2px solid rgba(22, 16, 11, 0.699);
+    transition: all .3s ease-out;
+}
+.active {
+    border-bottom: 2px solid rgba(22, 16, 11, 0.699);
+}
+.social-media-icons a {
+    justify-content: space-between;
+    margin-left: 20px;
+    color: rgba(22, 16, 11, 0.699);
+    font-size: 1.2em;
+    font-weight: 8000;
+}
+.main-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/banner1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.about-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/drums3.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.amplifier-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/amplifier-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.about-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/amplifier-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.stage-light-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/stage_light1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.faq-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/stage_light1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.contact-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/stage_light1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.main-text {
+    color: #f0f0f0;
+    font-weight: 900;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: zoomIn 2s infinite;
+}
+@keyframes zoomIn {
+    0% {
+        transform: 0;
+        opacity: 0;
+        filter: blur(1px);
+    }
+    50% {
+        transform: scale(1.03); opacity: 0.8;
+    }
+    100% {
+        transform: 0;
+        opacity: 0;
+       
+    }
+}
+.company-name {
+    color: #f0f0f0;
+    font-weight: 900;
+}
+.btn-explore {
+    background: rgba(73, 72, 72, 0.452);
+    font-weight: 600;
+    animation: zoomOut 3s infinite;
+    color: #f0f0f0;
+}
+.container {
+    margin-top: 100px;
+}
+#each-service {
+    transform: scale(0.95);
+    border-radius: 5px;
+    align-items: center;
+}
+.btn-discover {
+    font-weight: 600;
+}
+.btn-place-request {
+    font-weight: 600;
+    animation: zoomOut 3s infinite;
+}
+@keyframes zoomOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        background: rgba(134, 132, 132, 0.1);
+        transform: scale(1.04);
+        color: #f0f0f0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#each-service:hover {
+    transform: scale(1.001);
+    background:rgba(134, 132, 132, 0.1);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+#our-work {
+    border-left: 5px solid lavender;
+}
+.name {
+    color:rgb(241, 54, 54);
+    font-weight: 600;
+}
+.fa-music {
+    padding: 10px 10px;
+    font-size: 3em;
+    color:rgb(241, 54, 54);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px lavender;
+}
+.fa-microphone {
+    padding: 10px 10px;
+    font-size: 3em;
+    color:rgb(241, 54, 54);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px lavender;
+}
+.fa-headphones {
+    padding: 10px 10px;
+    font-size: 3em;
+    color:rgb(241, 54, 54);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px lavender;  
+}
+.fa-star {
+    color: goldenrod;
+    font-size: 1.2em;
+}s
+.fa-star-half {
+    font-size: 1.2em;
+}
+#what-we-do-bg {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/banner1.jpg')
+}
+.what-are-you-looking-for img{
+    height: 450px;
+}
+.asteriks {
+    color: var(--red);
+    font-weight: 900;
+}
+#scrollUp {
+    position: fixed;
+    right: 32px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    pointer-events: none;
+    transition: .5s;
+    bottom: 20px;
+    background:var(--red);
+    border-radius: 5px;
+    visibility: hidden;
+    border-bottom: 0;
+}
+#scrollUp.active {
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+}
+.fa-arrow-up {
+    color: #fff;
+    font-size: 1.3em;
+    padding: 8px 8px;
+}
+footer {
+    background: rgb(0, 3, 44);
+}
+footer h4 {
+    color: #fff;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-facebook {
+    font-size: 1.3em;
+    color: rgb(0, 3, 44);
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 13px;
+}
+.footer-icons {
+    background: #fff;
+    color:rgb(0, 3, 44);
+    font-size: 1.3em;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .nav-link:hover {
+        border: none;
+    }
+}
