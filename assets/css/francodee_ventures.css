@@ -89,7 +89,7 @@ h4 {
 .amplifier-banner {
     margin-top: 70px;
     height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/amplifier-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/amplifiers/amplifier3.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -98,7 +98,7 @@ h4 {
 .about-banner {
     margin-top: 70px;
     height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/amplifier-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/gallery/gallery1.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -107,7 +107,25 @@ h4 {
 .microphones-banner {
     margin-top: 70px;
     height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/stage_light1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/stage_light1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.drum-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/piano/keyboard1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+.speakers-banner {
+    margin-top: 70px;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/combos/combo3.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -116,7 +134,7 @@ h4 {
 .faq-banner {
     margin-top: 70px;
     height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/stage_light1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/stage_light1.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -125,7 +143,7 @@ h4 {
 .contact-banner {
     margin-top: 70px;
     height: 250px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../images/stage_light1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/digital-design.jpg');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
