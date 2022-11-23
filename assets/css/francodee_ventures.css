@@ -45,7 +45,7 @@ h4 {
     transform: scale(1)
 }
 #navbar-design {
-    background: rgb(232, 232, 245);
+    background: #fff;
     backdrop-filter: blur(5px);
 }
 .navbar-collapse .navbar-nav li.nav-item a.nav-link {
