@@ -17,4 +17,4 @@ window.addEventListener("scroll", ()=>{
   }else {
     scrollUp.classList.remove("active");
   }
-})
+});
